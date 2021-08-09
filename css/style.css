@@ -1,0 +1,683 @@
+@charset "utf-8";
+
+.error{
+	text-align: left;
+}
+/* !concept
+---------------------------------------------------------- */
+.concept {
+	background: #fff;
+	padding: 90px 20px 110px;
+}
+.concept .conceptin {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.concept .concepthd {
+	margin-bottom: 35px;
+}
+.concept .conceptbox {
+	display: flex;
+}
+.concept .conceptimg {
+	margin-left: 20px;
+}
+.concept .conceptimg li {
+	text-align: center;
+}
+.concept .conceptimg li+li {
+	margin-top: 60px;
+}
+.concept .conceptcont {
+	flex: 1;
+}
+.concept .concepttit {
+	line-height: 1.3;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 60px;
+}
+.concept .concepttxt li+li {
+	margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
+.concept .conceptbox {
+	display: block;
+}
+.concept .conceptimg {
+	margin: 50px 0 0;
+}
+}
+@media screen and (max-width: 767px) {
+.concept {
+	padding: 50px 20px;
+}
+.concept .concepthd {
+	margin-bottom: 45px;
+}
+.concept .concepthd img {
+	width: 185px;
+}
+.concept .conceptimg {
+	margin: 30px 0 0;
+}
+.concept .conceptimg li+li {
+	margin-top: 20px;
+}
+.concept .concepttit {
+	line-height: 1.3;
+	font-size: 24px;
+	margin-bottom: 35px;
+}
+.concept .concepttxt li+li {
+	margin-top: 30px;
+}
+}
+
+
+/* !point
+---------------------------------------------------------- */
+.point {
+	background: url("../img/bg_point.jpg") center center no-repeat;
+	background-size: cover;
+	padding: 100px 20px;
+}
+.point .pointin {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.point .pointhd {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.point .pointlist {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	margin: 0 -10px;
+}
+.point .pointlist li {
+	width: 354px;
+	margin: 0 10px;
+}
+.point .pointtit {
+	font-size: 37px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.point .pointimg {
+	text-align: center;
+	margin-bottom: 55px;
+}
+.point .pointtxt {
+	text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+.point .pointlist {
+	display: block;
+	margin: 0;
+}
+.point .pointlist li {
+	width: auto;
+	margin: 0;
+}
+.point .pointlist li+li {
+	margin-top: 50px;
+}
+.point .pointtit {
+	text-align: center;
+}
+}
+@media screen and (max-width: 767px) {
+.point {
+	background: url("../img/bg_point.jpg") center center no-repeat;
+	background-size: auto 100%;
+	padding: 50px 20px;
+}
+.point .pointhd {
+	margin-bottom: 50px;
+}
+.point .pointhd img {
+	width: 130px;
+}
+.point .pointlist li {
+	width: auto;
+	max-width: 335px;
+	margin: 0 auto;
+}
+.point .pointtit {
+	font-size: 25px;
+	text-align: left;
+	margin-bottom: 25px;
+}
+.point .pointimg {
+	margin-bottom: 40px;
+}
+}
+
+
+/* !midbox
+---------------------------------------------------------- */
+.midbox {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+.midbox .midboximg {
+	width: 50%;
+}
+.midbox .midboximg img {
+	width: 100%;
+}
+.midbox .midboxcont {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: #16304b;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 2.4;
+	letter-spacing: 0.8rem;
+}
+
+@media screen and (max-width: 767px) {
+.midbox {
+	display: block;
+}
+.midbox .midboximg {
+	width: auto;
+}
+.midbox .midboxcont {
+	width: 100%;
+	height: 280px;
+	font-size: 19px;
+}
+}
+
+
+
+/* !plan
+---------------------------------------------------------- */
+.plan {
+	background: #fff;
+	padding: 85px 20px 95px;
+}
+.plan .planin {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.plan .planhd {
+	text-align: center;
+	margin-bottom: 90px;
+}
+.plan .planbox {
+	display: flex;
+	align-items: flex-start;
+}
+.plan .planboximg {
+	margin-right: 30px;
+}
+.plan .planboxcont {
+	flex: 1;
+	padding-top: 20px;
+}
+.plan .planmid {
+	text-align: center;
+}
+.plan .plantree {
+	max-width: 950px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.plan .plantreeimg {
+	margin-left: 20px;
+}
+.plan .plantreecont {
+	line-height: 1.8;
+	font-size: 16px;
+}
+.plan .planlist {
+	display: flex;
+	justify-content: space-between;
+	margin: 110px -10px 0;
+}
+.plan .planlist li {
+	margin: 0 10px;
+}
+.plan .plandet {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 86px;
+	color: #977e41;
+	line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+.plan .planbox {
+	display: block;
+}
+.plan .planboximg {
+	text-align: center;
+	margin: 0 0 50px;
+}
+.plan .planboxcont {
+	text-align: center;
+	padding-top: 0;
+}
+}
+@media screen and (max-width: 767px) {
+.plan {
+	padding: 50px 20px;
+}
+.plan .planhd {
+	margin-bottom: 40px;
+}
+.plan .planhd img {
+	width: 110px;
+}
+.plan .planboximg {
+	margin-bottom: 30px;
+}
+.plan .planmid {
+	margin: 0 -20px;
+}
+.plan .plantree {
+	display: block;
+}
+.plan .plantreeimg {
+	text-align: center;
+	margin: 30px 0 0;
+}
+.plan .plantreeimg img {
+	width: 136px;
+}
+.plan .plantreecont {
+	font-size: 13px;
+}
+.plan .planlist {
+	display: block;
+	margin: 35px 0 0;
+}
+.plan .planlist li {
+	margin: 0;
+	text-align: center;
+}
+.plan .planlist li+li {
+	margin-top: 30px;
+}
+.plan .plandet {
+	margin-top: 40px;
+	font-size: 40px;
+}
+}
+
+
+
+/* !option
+---------------------------------------------------------- */
+.option {
+	background: url("../img/bg_option.jpg") center center no-repeat;
+	background-size: cover;
+	padding: 110px 20px 140px;
+}
+.option .optionin {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+.option .optionhd {
+	text-align: center;
+	margin-bottom: 75px;
+}
+.option .optionbox {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.option .optionimg {
+	margin-right: 95px;
+}
+.option .optioncont {
+	flex: 1;
+}
+.option .optiontit {
+	line-height: 1.3;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+.option .optiontxt li+li {
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+.option .optionbox {
+	display: block;
+}
+.option .optionimg {
+	text-align: center;
+	margin: 0 0 50px;
+}
+}
+@media screen and (max-width: 767px) {
+.option {
+	background-size: auto 100%;
+	padding: 50px 20px;
+}
+.option .optionhd {
+	margin-bottom: 50px;
+}
+.option .optionhd img {
+	width: 140px;
+}
+.option .optionimg {
+	margin-bottom: 35px;
+}
+.option .optiontit {
+	font-size: 24px;
+	margin-bottom: 35px;
+}
+.option .optiontxt li+li {
+	margin-top: 20px;
+}
+
+}
+
+
+
+/* !movie
+---------------------------------------------------------- */
+.movie {
+	background: url("../img/bg_movie.png") 0 bottom repeat-x #16304b;
+	padding: 60px 20px 200px;
+}
+.movie .moviein {
+	max-width: 854px;
+	margin: 0 auto;
+}
+.movie .moviehd {
+	text-align: center;
+	margin-bottom: 65px;
+}
+.movie .youtube iframe {
+	width: 100%;
+	height: 480px;
+}
+
+@media screen and (max-width: 767px) {
+.movie {
+	background: url("../img/bg_movie_sp.png") 0 bottom repeat-x #16304b;
+	padding: 50px 20px;
+}
+.movie .moviehd {
+	margin-bottom: 50px;
+}
+.movie .moviehd img {
+	width: 130px;
+}
+.movie .youtube iframe {
+	height: 190px;
+}
+}
+
+
+
+/* !company
+---------------------------------------------------------- */
+.company {
+	background: #fff;
+	padding: 115px 20px 120px;
+}
+.company .companyin {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.company .companyhd {
+	text-align: center;
+	margin-bottom: 45px;
+}
+.company .companybox {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.company .companyboximg {
+	margin-right: 40px;
+}
+.company .companyboxcont {
+	font-size: 20px;
+	line-height: 2;
+	max-width: 500px;
+}
+.company .companylist {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	margin: 0 -10px 45px;
+}
+.company .companylist li {
+	margin: 0 10px;
+}
+.company .companyaddr {
+	border-left: 12px #7b491a solid;
+	border-right: 12px #7b491a solid;
+	padding: 0 48px;
+	line-height: 1.5;
+	font-size: 26px;
+	margin-bottom: 80px;
+}
+.company .companydet {
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+.company .companybtn {
+	text-align: center;
+}
+.company .companybtn a {
+	display: inline-block;
+	background: #6b3518;
+	line-height: 60px;
+	color: #fff;
+	font-size: 32px;
+	padding: 0 25px;
+	text-align: center;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	-ms-border-radius: 11px;
+	-o-border-radius: 11px;
+	border-radius: 11px;
+}
+
+@media screen and (max-width: 767px) {
+.company {
+	padding: 50px 20px;
+}
+.company .companyhd {
+	margin-bottom: 30px;
+}
+.company .companyhd img {
+	width: 175px;
+}
+.company .companybox {
+	display: block;
+	margin-bottom: 40px;
+}
+.company .companyboximg {
+	text-align: center;
+	margin: 0 0 30px;
+}
+.company .companyboxcont {
+	font-size: 13px;
+	max-width: none;
+}
+.company .companylist {
+	display: block;
+	margin: 0 0 50px;
+}
+.company .companylist li {
+	margin: 0;
+}
+.company .companylist li+li {
+	margin-top: 30px;
+}
+.company .companyaddr {
+	border-left: 6px #7b491a solid;
+	border-right: 6px #7b491a solid;
+	padding: 0 15px;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.company .companydet {
+	font-size: 13px;
+	margin-bottom: 25px;
+}
+.company .companybtn a {
+	line-height: 50px;
+	font-size: 20px;
+	padding: 0;
+	width: 230px;
+}
+}
+
+
+
+/* !contact
+---------------------------------------------------------- */
+.error {
+	color: #ff0000;
+}
+.contact {
+	background: url("../img/bg_contact.jpg") center center no-repeat;
+	background-size: cover;
+	padding: 85px 20px 100px;
+}
+.contact .contactin {
+	max-width: 985px;
+	margin: 0 auto;
+}
+.contact .contacthd {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact .contactnote {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+.contact .notelist li {
+	line-height: 2;
+	color: #ff0000;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+.contact .formtab {
+	width: 100%;
+}
+.contact .formtab th,.contact .formtab td {
+	padding: 20px 0;
+	vertical-align: middle;
+	font-size: 17px;
+	line-height: 1.7;
+}
+.contact .formtab th {
+	width: 22%;
+	padding-right: 40px;
+}
+.contact .formtab input[type=text],
+.contact .formtab input[type=email],
+.contact .formtab input[type=tel]{
+	background: #fff;
+	height: 50px;
+	border: 1px #707070 solid;
+	width: 100%;
+	padding: 10px;
+}
+.contact .formtab textarea {
+	background: #fff;
+	height: 420px;
+	border: 1px #707070 solid;
+	width: 100%;
+	padding: 10px;
+	outline: none;
+}
+.contact .formbtn {
+	text-align: center;
+	margin-top: 85px;
+}
+.contact .formbtn input[type=submit] {
+	background: #292929;
+	width: 163px;
+	height: 44px;
+	color: #fff;
+	font-size: 17px;
+	line-height: 1.7;
+	cursor: pointer;
+}
+.contact .formbtn input[type=submit]:hover {
+	background: #555;
+}
+
+
+@media screen and (max-width: 767px) {
+.contact {
+	background: url("../img/bg_contact.jpg") center center no-repeat;
+	background-size: auto 100%;
+	padding: 50px 20px;
+}
+.contact .contacthd {
+	margin-bottom: 40px;
+}
+.contact .contacthd img {
+	width: 145px;
+}
+.contact .contactnote {
+	display: block;
+	margin-bottom: 35px;
+	padding: 0 10px;
+}
+.contact .formtab th,.contact .formtab td {
+	display: block;
+	padding: 0;
+	font-size: 15px;
+	line-height: 2;
+}
+.contact .formtab th {
+	width: auto;
+	padding: 0 0 5px;
+}
+.contact .formtab td {
+	padding-bottom: 20px;
+}
+.contact .formtab input[type=text],
+.contact .formtab input[type=email],
+.contact .formtab input[type=tel]{
+	padding: 5px;
+}
+.contact .formtab textarea {
+	height: 290px;
+	padding: 5px;
+}
+.contact .formbtn {
+	margin-top: 30px;
+}
+}
+
+.thanksbox {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 200px 20px;
+}
+
+
+

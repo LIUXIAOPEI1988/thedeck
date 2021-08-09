@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+
+
+/* !HTML5 elements
+---------------------------------------------------------- */
+header, footer, nav, section, aside, article
+{ display: block;}
+
+/* !Reseting
+---------------------------------------------------------- */
+body {
+	font-family: "游ゴシック", YuGothic, "メイリオ", Meiryo, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
+	-webkit-text-size-adjust: none;
+	line-height: 2.6;
+	font-size: 15px;
+	color: #292929;
+	font-weight: 400;
+	font-feature-settings: "palt";
+}
+@media screen and (max-width: 767px) {
+body {
+	font-size: 13px;
+}
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, p,input,textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+input, textarea
+{ margin: 0; font-size: 100%;}
+label
+{ cursor: pointer;}
+table
+{ border-collapse: collapse; border-spacing: 0; font-size: 100%;}
+fieldset, img
+{ border: 0;}
+img
+{ vertical-align: bottom; max-width: 100%;height: auto;}
+address, caption, cite, code, dfn, em, th, var
+{ font-style: normal; font-weight: normal;}
+ol, ul
+{ list-style: none;}
+caption, th
+{ text-align: left;}
+h1, h2, h3, h4, h5, h6
+{ font-size: 100%; font-weight: normal;}
+q:after, q:before
+{ content:'';}
+a, input
+{ /* outline: none; */ }
+abbr, acronym
+{ border: 0;}
+
+input {
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+}
+
+/* !fonts
+---------------------------------------------------------- */
+
+
+/* !Clearfix
+---------------------------------------------------------- */
+.clearfix {
+	display: block;
+	min-height: 1%;
+}
+.clearfix:after {
+	clear: both;
+	content:".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+* html .clearfix {
+	height: 1%;
+	/*\*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+
+
+/* !Base Fonts
+---------------------------------------------------------- */
+
+a {
+	color: #292929;
+	text-decoration:none;
+	transition: all 0.5s !important;
+	-moz-transition: all 0.5s !important; /* Firefox */
+	-webkit-transition: all 0.5s !important; /* Chrome&Safari */
+}
+
+a:hover,a:focus {
+	color: #231815;
+	text-decoration: none;
+	opacity: .7;
+	-webkit-opacity: .7;
+	-moz-opacity: .7;
+	transition: all 0.5s !important;
+	-moz-transition: all 0.5s !important; /* Firefox */
+	-webkit-transition: all 0.5s !important; /* Chrome&Safari */
+}
+
+.op img,
+.op input {
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;	
+}
+.op:hover img,
+.op:hover input {
+	opacity: .7;
+	-webkit-opacity: .7;
+	-moz-opacity: .7;
+	filter: alpha(opacity=70);	/* IE lt 8 */
+	-ms-filter: "alpha(opacity=70)"; /* IE 8 */
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+.fwN { font-weight: normal;}
+.fwB { font-weight: bold;}
+
+.visiblepc {
+	display: block;
+}
+.visiblets {
+	display: none;
+}
+@media screen and (max-width: 767px) {
+.visiblets {
+	display: block;
+}
+.visiblepc {
+	display: none;
+}
+}
+
+.ftbox {
+	overflow:hidden;
+}
+
+.ffmin {
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "ＭＳ 明朝", serif;
+}
+
+.ffen {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 700;
+}
+
+
+/* !Layout
+---------------------------------------------------------- */
+html { overflow-y: scroll;}
+body { }
+@media print {
+	html,
+	html body { *zoom: 0.65;}
+}
+
+
+/* !wrapper
+---------------------------------------------------------- */
+#wrapper {
+	background:#fff;
+	overflow: hidden;
+}
+
+
+/* !header
+---------------------------------------------------------- */
+header video {
+	width: 100%;
+}
+
+
